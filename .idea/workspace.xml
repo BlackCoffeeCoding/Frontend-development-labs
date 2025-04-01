@@ -4,9 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d513c2-e8f1-4df0-ba65-e124f169d168" name="Changes" comment="HTML+CSS lab1, lab2, lab3 added">
+    <list default="true" id="46d513c2-e8f1-4df0-ba65-e124f169d168" name="Changes" comment="HTML+CSS lab3 edited">
+      <change afterPath="$PROJECT_DIR$/src/JS labs/lab1/z1.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JS labs/lab1/z2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JS labs/lab1/z3.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JS labs/lab1/z4.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JS labs/lab1/z5.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/css/z5.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/css/z5.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,30 +21,31 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "BlackCoffeeCoding"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;BlackCoffeeCoding&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubDefaultAccount">
     <option name="defaultAccountId" value="71fb0b5d-b9aa-4c16-9f63-e0fa81b00b30" />
   </component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/BlackCoffeeCoding/Frontend-development-labs.git",
-    "accountId": "71fb0b5d-b9aa-4c16-9f63-e0fa81b00b30"
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/BlackCoffeeCoding/Frontend-development-labs.git&quot;,
+    &quot;accountId&quot;: &quot;71fb0b5d-b9aa-4c16-9f63-e0fa81b00b30&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 6
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
   <component name="ProjectId" id="2v7wzV8bDLZmQMEWdQ2GsOdQh2d" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -54,6 +59,11 @@
     "JavaScript Debug.style lists.html.executor": "Run",
     "JavaScript Debug.table.html.executor": "Run",
     "JavaScript Debug.z5.html.executor": "Run",
+    "Node.js.z1.js.executor": "Run",
+    "Node.js.z2.js.executor": "Run",
+    "Node.js.z3.js.executor": "Run",
+    "Node.js.z4.js.executor": "Run",
+    "Node.js.z5.js.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
@@ -94,7 +104,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743509682249</updated>
-      <workItem from="1743509683287" duration="2764000" />
+      <workItem from="1743509683287" duration="3019000" />
+      <workItem from="1743524658730" duration="1107000" />
     </task>
     <task id="LOCAL-00001" summary="HTML+CSS lab1, lab2, lab3 added">
       <option name="closed" value="true" />
@@ -104,7 +115,15 @@
       <option name="project" value="LOCAL" />
       <updated>1743511921695</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="HTML+CSS lab3 edited">
+      <option name="closed" value="true" />
+      <created>1743512673812</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1743512673812</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -112,6 +131,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="HTML+CSS lab1, lab2, lab3 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="HTML+CSS lab1, lab2, lab3 added" />
+    <MESSAGE value="HTML+CSS lab3 edited" />
+    <option name="LAST_COMMIT_MESSAGE" value="HTML+CSS lab3 edited" />
   </component>
 </project>

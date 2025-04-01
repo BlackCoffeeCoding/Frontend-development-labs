@@ -4,42 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d513c2-e8f1-4df0-ba65-e124f169d168" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab1/html/lists.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab1/html/nestedLists.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab1/html/paragraph.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab1/html/singleArticlePage.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab1/html/table.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab1/html/test.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab1/pic/cat.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab2/css/z1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab2/css/z2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab2/css/z3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab2/css/z4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab2/html/CSS Intro.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab2/html/style article.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab2/html/style lists.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab2/html/style tables.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/css/z1.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/css/z2.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/css/z3.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/css/z4.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/css/z5.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/html/z1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/html/z2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/html/z3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/html/z4.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/html/z5.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/pic/picture.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/pic/picture1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/pic/picture2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/pic/picture3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/pic/picture4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/pic/picture5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/pic/picture6.jpg" afterDir="false" />
+    <list default="true" id="46d513c2-e8f1-4df0-ba65-e124f169d168" name="Changes" comment="HTML+CSS lab1, lab2, lab3 added">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/css/z5.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab3/css/z5.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +23,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "BlackCoffeeCoding"
+  }
+}]]></component>
+  <component name="GithubDefaultAccount">
+    <option name="defaultAccountId" value="71fb0b5d-b9aa-4c16-9f63-e0fa81b00b30" />
+  </component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/BlackCoffeeCoding/Frontend-development-labs.git",
+    "accountId": "71fb0b5d-b9aa-4c16-9f63-e0fa81b00b30"
+  }
+}]]></component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 6
 }]]></component>
@@ -81,6 +63,7 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -111,11 +94,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1743509682249</updated>
-      <workItem from="1743509683287" duration="2066000" />
+      <workItem from="1743509683287" duration="2764000" />
     </task>
+    <task id="LOCAL-00001" summary="HTML+CSS lab1, lab2, lab3 added">
+      <option name="closed" value="true" />
+      <created>1743511921695</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1743511921695</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="HTML+CSS lab1, lab2, lab3 added" />
+    <option name="LAST_COMMIT_MESSAGE" value="HTML+CSS lab1, lab2, lab3 added" />
   </component>
 </project>

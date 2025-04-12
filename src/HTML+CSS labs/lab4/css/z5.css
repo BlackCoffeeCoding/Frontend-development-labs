@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(238, 238, 238);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.cards-layout {
+    margin: 20px;
+}
+
+.cards-layout h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 15px;
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.card p {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.card a {
+    margin-top: auto;
+    padding-top: 10px;
+    border-top: 1px solid #000000;
+    color: #000000;
+    text-decoration: none;
+    display: block;
+}
+
+.masonry {
+    column-count: 3;
+    column-gap: 20px;
+}
+
+.masonry h2 {
+    -webkit-column-span: all;
+    column-span: all;
+}
+
+.masonry .card-wrapper {
+    break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    -moz-column-break-inside: avoid;
+    page-break-inside: avoid;
+    margin-bottom: 20px;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.flex h2 {
+    flex-basis: 100%;
+}
+
+.flex .card {
+    flex: 1 1 calc(33.333% - 20px);
+    box-sizing: border-box;
+}

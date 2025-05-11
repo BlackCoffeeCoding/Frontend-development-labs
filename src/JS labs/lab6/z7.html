@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Профиль</title>
+</head>
+<body>
+<div class="profile">
+    <label><input type="radio" name="user1Locked" value="lock" checked> Lock</label>
+    <label><input type="radio" name="user1Locked" value="unlock"> Unlock</label>
+    <div>
+        <input type="text" value="user@example.com" disabled>
+    </div>
+    <div class="hiddenFields" style="display:none;">
+        <p>Возраст: 25</p>
+    </div>
+    <button onclick="toggleProfile(this)">Show more</button>
+</div>
+<script>
+    function toggleProfile(button) {
+        const profile = button.parentElement;
+        const unlocked = profile.querySelector('input[value=unlock]').checked;
+        const hidden = profile.querySelector('.hiddenFields');
+
+        if (!unlocked) return;
+
+        if (hidden.style.display === 'none') {
+            hidden.style.display = 'block';
+            button.textContent = 'Hide it';
+        } else {
+            hidden.style.display = 'none';
+            button.textContent = 'Show more';
+        }
+    }
+</script>
+</body>
+</html>

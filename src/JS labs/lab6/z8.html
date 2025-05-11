@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dropdown</title>
+</head>
+<body>
+<div>
+    <select id="menu"></select>
+</div>
+<input id="newItemText" placeholder="Текст элемента">
+<input id="newItemValue" placeholder="Значение элемента">
+<button onclick="addItem()">Добавить</button>
+<script>
+    function addItem() {
+        const text = document.getElementById('newItemText').value;
+        const value = document.getElementById('newItemValue').value;
+        const option = document.createElement('option');
+        option.text = text;
+        option.value = value;
+        document.getElementById('menu').appendChild(option);
+        document.getElementById('newItemText').value = '';
+        document.getElementById('newItemValue').value = '';
+    }
+</script>
+</body>
+</html>

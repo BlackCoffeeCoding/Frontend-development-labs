@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Аккордеон</title>
+</head>
+<body>
+<div style="max-width: 600px;">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+        <p style="margin: 0;">DOM Manipulation Exercise</p>
+        <button onclick="toggle()">More</button>
+    </div>
+    <div id="extra" style="display: none; margin-top: 10px;">
+        Дополнительный текст
+    </div>
+</div>
+<script>
+    function toggle() {
+        const extra = document.getElementById('extra');
+        const button = document.querySelector('button');
+
+        const isHidden = extra.style.display === 'none';
+        extra.style.display = isHidden ? 'block' : 'none';
+        button.textContent = isHidden ? 'Less' : 'More';
+    }
+</script>
+</body>
+</html>

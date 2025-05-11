@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Конвертер</title>
+</head>
+<body>
+<div>
+    <label for="days">Days:</label>
+    <input type="number" id="days">
+    <button onclick="convert('days')">Convert</button>
+</div>
+<div>
+    <label for="hours">Hours:</label>
+    <input type="number" id="hours">
+    <button onclick="convert('hours')">Convert</button>
+</div>
+<div>
+    <label for="minutes">Minutes:</label>
+    <input type="number" id="minutes">
+    <button onclick="convert('minutes')">Convert</button>
+</div>
+<div>
+    <label for="seconds">Seconds:</label>
+    <input type="number" id="seconds">
+    <button onclick="convert('seconds')">Convert</button>
+</div>
+<script>
+    function convert(from) {
+        const days = {
+            days: 1,
+            hours: 24,
+            minutes: 1440,
+            seconds: 86400
+        };
+        const value = Number(document.getElementById(from).value);
+        const inDays = value / days[from];
+
+        for (let unit in days) {
+            document.getElementById(unit).value = inDays * days[unit];
+        }
+    }
+</script>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Школьная задача</title>
+</head>
+<body>
+<input id="firstNumber" type="text" placeholder="Первое число">
+<input id="secondNumber" type="text" placeholder="Второе число">
+<button onclick="subtract()">Вычесть</button>
+<div id="result"></div>
+<script>
+    function subtract() {
+        const a = Number(document.getElementById('firstNumber').value);
+        const b = Number(document.getElementById('secondNumber').value);
+        document.getElementById('result').textContent = a - b;
+    }
+</script>
+</body>
+</html>

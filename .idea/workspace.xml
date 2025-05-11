@@ -4,14 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="46d513c2-e8f1-4df0-ba65-e124f169d168" name="Changes" comment="HTML+CSS lab4 added">
-      <change afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab4/screenshots/z5part3.png" afterDir="false" />
+    <list default="true" id="46d513c2-e8f1-4df0-ba65-e124f169d168" name="Changes" comment="HTML+CSS lab4 fixed">
+      <change afterPath="$PROJECT_DIR$/src/JS labs/lab6/z1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JS labs/lab6/z2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JS labs/lab6/z3.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JS labs/lab6/z4.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JS labs/lab6/z5.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JS labs/lab6/z6.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JS labs/lab6/z7.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JS labs/lab6/z8.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HTML+CSS labs/lab4/css/z1.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab4/css/z1.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HTML+CSS labs/lab4/css/z5.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab4/css/z5.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HTML+CSS labs/lab4/html/z1.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab4/html/z1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HTML+CSS labs/lab4/html/z5.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab4/html/z5.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HTML+CSS labs/lab4/screenshots/z1.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/HTML+CSS labs/lab4/screenshots/z1.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,8 +24,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -55,44 +57,47 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;JavaScript Debug.CSS Intro.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.SingleArticlePage.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.lists.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.nestedLists.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.paragraph.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.singleArticlePage.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.style article.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.style lists.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.style tables.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.table.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.test.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.z1.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.z2.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.z3.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.z4.html.executor&quot;: &quot;Run&quot;,
-    &quot;JavaScript Debug.z5.html.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.z1.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.z2.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.z3.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.z4.js.executor&quot;: &quot;Run&quot;,
-    &quot;Node.js.z5.js.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;G:/учёба/Веб/Frontend-development-labs/src/HTML+CSS labs/lab4/pic&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.CSS Intro.html.executor": "Run",
+    "JavaScript Debug.SingleArticlePage.html.executor": "Run",
+    "JavaScript Debug.lists.html.executor": "Run",
+    "JavaScript Debug.nestedLists.html.executor": "Run",
+    "JavaScript Debug.paragraph.html.executor": "Run",
+    "JavaScript Debug.singleArticlePage.html.executor": "Run",
+    "JavaScript Debug.style article.html.executor": "Run",
+    "JavaScript Debug.style lists.html.executor": "Run",
+    "JavaScript Debug.style tables.html.executor": "Run",
+    "JavaScript Debug.table.html.executor": "Run",
+    "JavaScript Debug.test.html.executor": "Run",
+    "JavaScript Debug.z1.html.executor": "Run",
+    "JavaScript Debug.z2.html.executor": "Run",
+    "JavaScript Debug.z3.html.executor": "Run",
+    "JavaScript Debug.z4.html.executor": "Run",
+    "JavaScript Debug.z5.html.executor": "Run",
+    "JavaScript Debug.z6.html.executor": "Run",
+    "JavaScript Debug.z7.html.executor": "Run",
+    "JavaScript Debug.z8.html.executor": "Run",
+    "Node.js.z1.js.executor": "Run",
+    "Node.js.z2.js.executor": "Run",
+    "Node.js.z3.js.executor": "Run",
+    "Node.js.z4.js.executor": "Run",
+    "Node.js.z5.js.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "G:/учёба/Веб/Frontend-development-labs/src/HTML+CSS labs/lab4/pic",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="G:\учёба\Веб\Frontend-development-labs\src\HTML+CSS labs\lab4\pic" />
@@ -125,6 +130,7 @@
       <workItem from="1743524658730" duration="1296000" />
       <workItem from="1744299525401" duration="1025000" />
       <workItem from="1744478654343" duration="6976000" />
+      <workItem from="1746964924942" duration="1940000" />
     </task>
     <task id="LOCAL-00001" summary="HTML+CSS lab1, lab2, lab3 added">
       <option name="closed" value="true" />
@@ -166,7 +172,15 @@
       <option name="project" value="LOCAL" />
       <updated>1744485358195</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="HTML+CSS lab4 fixed">
+      <option name="closed" value="true" />
+      <created>1745845145311</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1745845145311</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,7 +191,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -189,6 +215,7 @@
     <MESSAGE value="JS lab1 added" />
     <MESSAGE value="HTML+CSS tests added" />
     <MESSAGE value="HTML+CSS lab4 added" />
-    <option name="LAST_COMMIT_MESSAGE" value="HTML+CSS lab4 added" />
+    <MESSAGE value="HTML+CSS lab4 fixed" />
+    <option name="LAST_COMMIT_MESSAGE" value="HTML+CSS lab4 fixed" />
   </component>
 </project>

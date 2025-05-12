@@ -1,51 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Поиск в таблице</title>
+    <link rel="stylesheet" href="z5.css">
+    <title>TABLE - SEARCH ENGINE</title>
+    <script src="z5.js"></script>
 </head>
 <body>
-<input id="searchField" type="text">
-<button onclick="search()">Search</button>
-<table border="1" id="table">
+<table class="container">
+    <thead>
     <tr>
-        <th>Имя</th>
-        <th>Город</th>
+        <th>Student name</th>
+        <th>Student email</th>
+        <th>Student course</th>
+    </tr>
+    </thead>
+    <tfoot>
+    <tr>
+        <td colspan="3">
+            <input type="text" id="searchField" />
+            <button type="button" id="searchBtn">Search</button>
+        </td>
+    </tr>
+    </tfoot>
+    <tbody>
+    <tr>
+        <td>Ivanov Ivan</td>
+        <td>ivan@example.com</td>
+        <td>JS-CORE</td>
     </tr>
     <tr>
-        <td>Анна</td>
-        <td>Москва</td>
+        <td>Petr Petrov</td>
+        <td>petr@example.com</td>
+        <td>JS-WEB</td>
     </tr>
     <tr>
-        <td>Борис</td>
-        <td>Минск</td>
+        <td>Max Maxov</td>
+        <td>max@example.com</td>
+        <td>FRONT-END</td>
     </tr>
     <tr>
-        <td>Клара</td>
-        <td>Киев</td>
+        <td>Svetlana Svetlanova</td>
+        <td>sv@example.com</td>
+        <td>TECH-JS</td>
     </tr>
+    <tr>
+        <td>Marina Marinova</td>
+        <td>m@example.com</td>
+        <td>All possible courses</td>
+    </tr>
+    </tbody>
 </table>
-<style>
-    .select {
-        background-color: yellow;
-    }
-</style>
+<div id="result"></div>
 <script>
-    function search() {
-        const query = document.getElementById('searchField').value.toLowerCase();
-        const rows = document.querySelectorAll('#table tr');
-
-        for (let i = 1; i < rows.length; i++) {
-            rows[i].classList.remove('select');
-            const cells = rows[i].children;
-            for (const cell of cells) {
-                if (cell.textContent.toLowerCase().includes(query)) {
-                    rows[i].classList.add('select');
-                    break;
-                }
-            }
-        }
-    }
+    solve();
 </script>
 </body>
 </html>

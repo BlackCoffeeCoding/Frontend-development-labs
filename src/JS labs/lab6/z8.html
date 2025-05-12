@@ -2,26 +2,25 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Dropdown</title>
+    <title>Fill Dropdown</title>
+    <script src="z8.js"></script>
+    <link rel="stylesheet" href="z8.css">
 </head>
 <body>
-<div>
-    <select id="menu"></select>
-</div>
-<input id="newItemText" placeholder="Текст элемента">
-<input id="newItemValue" placeholder="Значение элемента">
-<button onclick="addItem()">Добавить</button>
-<script>
-    function addItem() {
-        const text = document.getElementById('newItemText').value;
-        const value = document.getElementById('newItemValue').value;
-        const option = document.createElement('option');
-        option.text = text;
-        option.value = value;
-        document.getElementById('menu').appendChild(option);
-        document.getElementById('newItemText').value = '';
-        document.getElementById('newItemValue').value = '';
-    }
-</script>
+<h1>Dropdown Menu</h1>
+<article>
+    <div>
+        <select id="menu"></select>
+    </div>
+    <label for="newItemText">
+        Text:
+    </label>
+    <input type="text" id="newItemText" />
+    <label for="newItemValue">
+        Value:
+    </label>
+    <input type="text" id="newItemValue" />
+    <input type="button" value="Add" onclick="addItem()">
+</article>
 </body>
 </html>

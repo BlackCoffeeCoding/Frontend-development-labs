@@ -1,34 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Pascal Case & Camel Case</title>
+    <link rel="stylesheet" href="z2.css">
+    <script src="z2.js"></script>
+    <title>Pascal or Camel Case</title>
 </head>
 <body>
-<input id="text" type="text" placeholder="Введите строку">
-<input id="namingConvention" type="text" placeholder="Camel Case или Pascal Case">
-<button onclick="convert()">Преобразовать</button>
-<span id="result"></span>
-<script>
-    function convert() {
-        const text = document.getElementById('text').value.toLowerCase();
-        const convention = document.getElementById('namingConvention').value;
-        const words = text.split(' ').filter(Boolean);
+<form>
+    <div>
+        <label for="text">Text: </label>
+        <input type="text" id="text">
+    </div>
+    <div>
+        <label for="naming-convention">Naming Convention: </label>
+        <input type="text" id="naming-convention">
+    </div>
 
-        if (convention === 'Camel Case') {
-            const result = words.map((w, i) =>
-                i === 0 ? w : w[0].toUpperCase() + w.slice(1).toLowerCase()
-            ).join('');
-            document.getElementById('result').textContent = result;
-        } else if (convention === 'Pascal Case') {
-            const result = words.map(w =>
-                w[0].toUpperCase() + w.slice(1).toLowerCase()
-            ).join('');
-            document.getElementById('result').textContent = result;
-        } else {
-            document.getElementById('result').textContent = 'Error!';
-        }
-    }
-</script>
+    <input type="button" onclick="solve()" value="Transform">
+</form>
+<div class="result-container">Result: <span id="result"></span></div>
 </body>
 </html>

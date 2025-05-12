@@ -2,18 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Школьная задача</title>
+    <title>Subtraction</title>
+    <link rel="stylesheet" href="z1.css">
 </head>
 <body>
-<input id="firstNumber" type="text" placeholder="Первое число">
-<input id="secondNumber" type="text" placeholder="Второе число">
-<button onclick="subtract()">Вычесть</button>
-<div id="result"></div>
+<div id="wrapper">
+    <input type="text" id="firstNumber" value="13.33" disabled>
+    <input type="text" id="secondNumber" value="22.18" disabled>
+    <div id="result"></div>
+</div>
+<script src="z1.js"></script>
 <script>
-    function subtract() {
-        const a = Number(document.getElementById('firstNumber').value);
-        const b = Number(document.getElementById('secondNumber').value);
-        document.getElementById('result').textContent = a - b;
+    window.onload = function () {
+        subtract();
     }
 </script>
 </body>

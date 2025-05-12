@@ -2,37 +2,24 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Поиск</title>
+    <title>Search in List</title>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous"></script>
+    <script src="z4.js"></script>
+    <link rel="stylesheet" href="z4.css">
 </head>
 <body>
-<input type="text" id="searchText" placeholder="Введите город">
-<button onclick="search()">Search</button>
-<ul id="towns">
-  <li>London</li>
-  <li>Paris</li>
-  <li>New York</li>
-  <li>Sofia</li>
-</ul>
-<div id="result"></div>
-<script>
-  function search() {
-    const query = document.getElementById('searchText').value.toLowerCase();
-    const towns = document.querySelectorAll('#towns li');
-    let count = 0;
-
-    towns.forEach(town => {
-      if (town.textContent.toLowerCase().includes(query)) {
-        town.style.fontWeight = 'bold';
-        town.style.textDecoration = 'underline';
-        count++;
-      } else {
-        town.style.fontWeight = '';
-        town.style.textDecoration = '';
-      }
-    });
-
-    document.getElementById('result').textContent = `${count} matches found`;
-  }
-</script>
+<article>
+    <ul id="towns">
+        <li>Москва</li>
+        <li>Киев</li>
+        <li>Минск</li>
+        <li>Самара</li>
+        <li>Одесса</li>
+        <li>Рига</li>
+    </ul>
+    <input type="text" id="searchText" />
+    <button onclick="search()">Search</button>
+    <div id="result"></div>
+</article>
 </body>
 </html>
